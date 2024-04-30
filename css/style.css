@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Jura:wght@300..700&display=swap');
+
+
+.imagemprincipal{
+    width: 36vw;
+    height: 100vh;
+    position: fixed;
+}
+
+.conteudoprincipal{
+    margin-left: 42vw;
+}
+
+h1{
+    font-family: 'Inter', Arial;
+    font-size: 13vh;
+    font-weight: lighter;
+    padding-top: 11vh;
+}
+
+h2{
+    font-family: 'Alumni Sans', Arial;
+    font-weight: bold;
+    font-size: 7vh;
+    padding-top: 2.7vh;
+}
+
+p{
+    font-family: 'Inter', Arial;
+    font-weight: normal;
+    font-size: 2.75vh;
+    padding-top: 8.5vh;
+    width: 50vw;
+}
+
+.redirecionar{
+    margin-top: 9vh;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Jura', Arial;
+    font-size: 7vh;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    padding: 10px;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    border-radius: 7px;
+}
+
+a:hover{
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(255, 255, 255);
+}

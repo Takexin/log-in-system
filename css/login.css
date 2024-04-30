@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Jura:wght@300..700&display=swap');
+body{
+    background-color: black;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-width: 0.5px;
+    border-style: solid;
+    width: 30vw;
+    border-radius: 10px 0px 10px 0px;
+    font-family: 'Inter', Arial;
+    height: 60vh;
+    margin-top: 10vh;
+    margin-left: 35.5vw;
+    background-color: black;
+    border-color: white;
+}
+
+h1{
+    font-size: 35px;
+    font-weight: lighter;
+    padding-top: 30px;
+    color: white;
+}
+
+input{
+    width: 300px;
+    padding: 15px;
+    margin: 15px;
+    border-style: solid;
+    border-width: 0px 0px 2px 0px;
+    font-family: 'Inter', Arial;
+    background-color: black;
+    border-color: white;
+    color: white;
+    border-radius: 7px;
+}
+
+input:hover{
+    background-color: rgb(10, 10, 10);
+}
+
+
+#btn{
+    width: 150px;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0);
+    border-width: 1.4px;
+    font-family: 'Inter', Arial;
+    margin-top: 15px;
+    color: white;
+}
+
+
+#btn:hover{
+    color: black;
+    background-color: white;
+}
+
+#ah{
+    font-family: 'Alumni Sans', Arial;
+    margin-left: -39vh;
+    margin-top: 16px;
+    font-size: 20px;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: rgb(15, 15, 15);
+    padding: 9px;
+    border-radius: 5px;
+}
+
+#ah:hover{
+    color: rgb(12, 12, 13);
+    background-color: aliceblue;
+}

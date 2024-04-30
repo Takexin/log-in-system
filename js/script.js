@@ -1,4 +1,3 @@
-
 const nomes=[]
 const senha=[]
 function register(){
@@ -16,20 +15,17 @@ function login(){
     for (let i = 0; i < nomes.length; i++) {
         if(nomes[i] == document.getElementById("user_reg").value){
             nome_true=true
-            alert("nome certo")
         }
     }
     for (let e = 0; e < senha.length; e++) {
         if(senha[e] == document.getElementById("pass_reg").value){
-            senha_true=true
-            alert("senha certo")
-            
+            senha_true=true         
         }
     }
     if(nome_true==true && senha_true==true){
-        alert("vc esta logado")
+        alert("VOCÊ ESTÁ LOGADO!")
     }
-}
-function tamanho(){
-    alert(nomes.length)
+    else{
+        alert("ALGUM ERRO OCORREU...")
+    }
 }
