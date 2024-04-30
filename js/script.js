@@ -1,8 +1,7 @@
 
 const nomes=[]
 const senha=[]
-function save_login(username, password){
-    
+function register(){
     username = window.localStorage.setItem("user_name",document.getElementById("user").value)
     nomes.push(window.localStorage.getItem("user_name"))
     password = window.localStorage.setItem("user_pass",document.getElementById("pass").value)
@@ -10,15 +9,27 @@ function save_login(username, password){
     alert(nomes)
     alert(senha)
 }
-function register(){
-    user_reg = nomes.find((element) => document.getElementById("user_reg").value)
-    pass_reg = senha.find((element) => document.getElementById("pass_reg").value)
-    if (user_reg && pass_reg){
-        document.getElementById("res").innerHTML="Senha e usuário validos"
-    }
-    else{
-        document.getElementById("res").innerHTML="Senha ou usuário invalidos"
-    }
+function login(){
+    var nome_true = Boolean(false)
+    var senha_true = Boolean(false)
     
-
+    for (let i = 0; i < nomes.length; i++) {
+        if(nomes[i] == document.getElementById("user_reg").value){
+            nome_true=true
+            alert("nome certo")
+        }
+    }
+    for (let e = 0; e < senha.length; e++) {
+        if(senha[e] == document.getElementById("pass_reg").value){
+            senha_true=true
+            alert("senha certo")
+            
+        }
+    }
+    if(nome_true==true && senha_true==true){
+        alert("vc esta logado")
+    }
+}
+function tamanho(){
+    alert(nomes.length)
 }
