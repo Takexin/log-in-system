@@ -1,18 +1,20 @@
 const nomes=[]
 const senha=[]
 
+var username = window.localStorage.setItem("user_name",document.getElementById("user").value)
 function get_cookie(){
     let name = username + "=";
     let cooks = document.cookie.split(";")
-    for (let i = 0; i < cooks.length; i++){
-        
+    for (let i = 0; i < cooks.lengt; i++){
+        let c = i
+        alert(c)
     }
 }
 var cookie_num = 0
 
 function register(){
     cookie_num+=1
-    username = window.localStorage.setItem("user_name",document.getElementById("user").value)
+    
     nomes.push(window.localStorage.getItem("user_name"))
     password = window.localStorage.setItem("user_pass",document.getElementById("pass").value)
     senha.push(window.localStorage.getItem("user_pass"))
