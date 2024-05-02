@@ -1,6 +1,15 @@
 const nomes=[]
 const senha=[]
+
+function get_cookie(){
+    let name = username + "=";
+    let cooks = document.cookie.split(";")
+    for (let i = 0; i < cooks.length; i++){
+        
+    }
+}
 var cookie_num = 0
+
 function register(){
     cookie_num+=1
     username = window.localStorage.setItem("user_name",document.getElementById("user").value)
